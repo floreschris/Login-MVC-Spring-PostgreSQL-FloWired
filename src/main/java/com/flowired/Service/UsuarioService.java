@@ -11,6 +11,7 @@ public class UsuarioService {
 	private final IUsuarioRepo IUsuarioRepo;
 
 	public UsuarioService(IUsuarioRepo iUsuarioRepo) {
+
 		this.IUsuarioRepo = iUsuarioRepo;
 	}
 
